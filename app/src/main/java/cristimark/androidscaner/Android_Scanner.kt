@@ -31,7 +31,7 @@ class Android_Scanner : AppCompatActivity() {
         progress.visibility = View.VISIBLE
         listView_details = findViewById<ListView>(R.id.listView) as ListView
 
-        
+
         run("http://10.0.0.7:8080/jsondata/index.html")
     }
 
